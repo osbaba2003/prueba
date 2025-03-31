@@ -11,4 +11,9 @@ public class Principal {
 			System.out.println("No es poden fer servir nombres negatius.");
 		}
 	}
+	try {
+		double valor = fact.factorialRecursiu(3); System.out.println(valor);
+		} catch (IllegalArgumentException e) {
+		System.out.println("No es poden fer servir nombres negatius.");
+		}
 }
